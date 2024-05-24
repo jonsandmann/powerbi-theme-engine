@@ -1,0 +1,24 @@
+Variable Name,Code,Hex
+Theme color 1,Theme color 1,#704214
+Theme color 2,Theme color 2,#855E42
+Theme color 3,Theme color 3,#9C7E59
+Theme color 4,Theme color 4,#C19A6B
+Theme color 5,Theme color 5,#A67B5B
+Theme color 6,Theme color 6,#5B4636
+Theme color 7,Theme color 7,#A58A76
+Theme color 8,Theme color 8,#796662
+bg-primary,white,#F5ECD8
+bg-primary_alt,gray-50,#E3DAC9
+bg-primary-hover,gray-50,#E3DAC9
+border-secondary,gray-200,#D8C8B1
+fg-secondary_hover,gray-800,#8B6A50
+text-primary,gray-900,#4E3B31
+text-secondary,gray-700,#6F4E37
+text-tertiary,gray-600,#9C7C56
+border-tertiary,gray-100,#C7B299
+bg-secondary_alt,gray-50,#E3DAC9
+bg-tertiary,gray-100,#E3DAC9
+bg-active,gray-50,#E3DAC9
+border-primary,gray-300,#B19D82
+unknown,?,#AE8970
+test,?,#C8AD7F
