@@ -1,14 +1,14 @@
 {
     "name": "Base Theme",
     "dataColors": [
-        "#00A97B",
-        "#27DC6F",
-        "#ADF455",
-        "#FFC86E",
-        "#7E8FA3",
-        "#132A13",
-        "#31572C",
-        "#424874"
+        "#3A86FE",
+        "#8338EC",
+        "#FF006E",
+        "#FA5607",
+        "#FFBE0C",
+        "#2ACF56",
+        "#3498DB",
+        "#1ABC9C"
     ],
     "visualStyles": {
         "page": {
@@ -182,6 +182,19 @@
         },
         "textbox": {
             "*": {
+                "padding": [
+                    {
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": false
+                    }
+                ],
                 "*": [
                     {
                         "fontSize": 12,
@@ -298,6 +311,27 @@
         },
         "cardVisual": {
             "*": {
+                "referenceLabelLayout": [
+                    {
+                        "style": "sentence",
+                        "labelSpace": 0,
+                        "outerPadding": 0,
+                        "$id": "default"
+                    }
+                ],
+                "divider": [
+                    {
+                        "show": false,
+                        "$id": "default"
+                    }
+                ],
+                "fillCustom": [
+                    {
+                        "show": false,
+                        "$id": "default",
+                        "transparency": 100
+                    }
+                ],
                 "value": [
                     {
                         "fontColor": {
@@ -305,7 +339,8 @@
                                 "color": "#101828"
                             }
                         },
-                        "$id": "default"
+                        "$id": "default",
+                        "labelPrecision": 0
                     }
                 ],
                 "spacing": [
@@ -326,11 +361,6 @@
                     }
                 ],
                 "outline": [
-                    {
-                        "show": false
-                    }
-                ],
-                "background": [
                     {
                         "show": false
                     }
@@ -411,6 +441,96 @@
                 "visualHeader": [
                     {
                         "show": false
+                    }
+                ]
+            }
+        },
+        "bookmarkNavigator": {
+            "*": {
+                "border": [
+                    {
+                        "show": false
+                    }
+                ],
+                "*": [
+                    {
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                    }
+                ],
+                "outline": [
+                    {
+                        "show": false
+                    }
+                ],
+                "text": [
+                    {
+                        "$id": "default",
+                        "fontFamily": "Segoe UI Semibold",
+                        "fontColor": {
+                            "solid": {
+                                "color": "#344054"
+                            }
+                        }
+                    },
+                    {
+                        "$id": "hover",
+                        "fontFamily": "Segoe UI Semibold",
+                        "fontColor": {
+                            "solid": {
+                                "color": "#182230"
+                            }
+                        }
+                    },
+                    {
+                        "$id": "selected",
+                        "fontFamily": "Segoe UI Semibold",
+                        "fontColor": {
+                            "solid": {
+                                "color": "#182230"
+                            }
+                        }
+                    }
+                ],
+                "shape": [
+                    {
+                        "$id": "default",
+                        "roundEdge": 8,
+                        "tileShape": "rectangle"
+                    }
+                ],
+                "fill": [
+                    {
+                        "show": true
+                    },
+                    {
+                        "$id": "default",
+                        "transparency": 0,
+                        "fillColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        }
+                    },
+                    {
+                        "$id": "hover",
+                        "transparency": 70,
+                        "fillColor": {
+                            "solid": {
+                                "color": "#555556"
+                            }
+                        }
+                    },
+                    {
+                        "$id": "selected",
+                        "transparency": 0,
+                        "fillColor": {
+                            "solid": {
+                                "color": "#F9FAFB"
+                            }
+                        }
                     }
                 ]
             }
@@ -932,7 +1052,7 @@
     "backgroundLight": "#F9FAFB",
     "foregroundNeutralTertiary": "#344054",
     "background": "#344054",
-    "backgroundNeutral": "#00A97B",
+    "backgroundNeutral": "#3A86FE",
     "textClasses": {
         "callout": {
             "color": "#101828",

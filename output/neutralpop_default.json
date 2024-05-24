@@ -98,17 +98,17 @@
                     {
                         "background": {
                             "solid": {
-                                "color": "#000000"
+                                "color": "#0C111D"
                             }
                         },
                         "titleFontColor": {
                             "solid": {
-                                "color": "#000000"
+                                "color": "#CECFD2"
                             }
                         },
                         "valueFontColor": {
                             "solid": {
-                                "color": "#000000"
+                                "color": "#F5F5F6"
                             }
                         }
                     }
@@ -182,6 +182,19 @@
         },
         "textbox": {
             "*": {
+                "padding": [
+                    {
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": false
+                    }
+                ],
                 "*": [
                     {
                         "fontSize": 12,
@@ -298,6 +311,27 @@
         },
         "cardVisual": {
             "*": {
+                "referenceLabelLayout": [
+                    {
+                        "style": "sentence",
+                        "labelSpace": 0,
+                        "outerPadding": 0,
+                        "$id": "default"
+                    }
+                ],
+                "divider": [
+                    {
+                        "show": false,
+                        "$id": "default"
+                    }
+                ],
+                "fillCustom": [
+                    {
+                        "show": false,
+                        "$id": "default",
+                        "transparency": 100
+                    }
+                ],
                 "value": [
                     {
                         "fontColor": {
@@ -305,7 +339,8 @@
                                 "color": "#F5F5F6"
                             }
                         },
-                        "$id": "default"
+                        "$id": "default",
+                        "labelPrecision": 0
                     }
                 ],
                 "spacing": [
@@ -326,11 +361,6 @@
                     }
                 ],
                 "outline": [
-                    {
-                        "show": false
-                    }
-                ],
-                "background": [
                     {
                         "show": false
                     }
@@ -411,6 +441,96 @@
                 "visualHeader": [
                     {
                         "show": false
+                    }
+                ]
+            }
+        },
+        "bookmarkNavigator": {
+            "*": {
+                "border": [
+                    {
+                        "show": false
+                    }
+                ],
+                "*": [
+                    {
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0,
+                        "top": 0
+                    }
+                ],
+                "outline": [
+                    {
+                        "show": false
+                    }
+                ],
+                "text": [
+                    {
+                        "$id": "default",
+                        "fontFamily": "Segoe UI Semibold",
+                        "fontColor": {
+                            "solid": {
+                                "color": "#CECFD2"
+                            }
+                        }
+                    },
+                    {
+                        "$id": "hover",
+                        "fontFamily": "Segoe UI Semibold",
+                        "fontColor": {
+                            "solid": {
+                                "color": "#ECECED"
+                            }
+                        }
+                    },
+                    {
+                        "$id": "selected",
+                        "fontFamily": "Segoe UI Semibold",
+                        "fontColor": {
+                            "solid": {
+                                "color": "#ECECED"
+                            }
+                        }
+                    }
+                ],
+                "shape": [
+                    {
+                        "$id": "default",
+                        "roundEdge": 8,
+                        "tileShape": "rectangle"
+                    }
+                ],
+                "fill": [
+                    {
+                        "show": true
+                    },
+                    {
+                        "$id": "default",
+                        "transparency": 0,
+                        "fillColor": {
+                            "solid": {
+                                "color": "#0C111D"
+                            }
+                        }
+                    },
+                    {
+                        "$id": "hover",
+                        "transparency": 70,
+                        "fillColor": {
+                            "solid": {
+                                "color": "#1F242F"
+                            }
+                        }
+                    },
+                    {
+                        "$id": "selected",
+                        "transparency": 0,
+                        "fillColor": {
+                            "solid": {
+                                "color": "#1F242F"
+                            }
+                        }
                     }
                 ]
             }
@@ -603,14 +723,14 @@
                         "gridHorizontal": true,
                         "gridHorizontalColor": {
                             "solid": {
-                                "color": "000000"
+                                "color": "#333741"
                             }
                         },
                         "gridHorizontalWeight": 1,
                         "gridVertical": true,
                         "gridVerticalColor": {
                             "solid": {
-                                "color": "000000"
+                                "color": "#333741"
                             }
                         },
                         "gridVerticalWeight": 1
@@ -620,12 +740,12 @@
                     {
                         "backColor": {
                             "solid": {
-                                "color": "000000"
+                                "color": "#161B26"
                             }
                         },
                         "fontColor": {
                             "solid": {
-                                "color": "000000"
+                                "color": "#F5F5F6"
                             }
                         }
                     }
@@ -634,12 +754,12 @@
                     {
                         "backColor": {
                             "solid": {
-                                "color": "000000"
+                                "color": "#161B26"
                             }
                         },
                         "fontColor": {
                             "solid": {
-                                "color": "000000"
+                                "color": "#F5F5F6"
                             }
                         }
                     }
@@ -648,32 +768,32 @@
                     {
                         "backColorSecondary": {
                             "solid": {
-                                "color": "000000"
+                                "color": "#0C111D"
                             }
                         },
                         "fontColorSecondary": {
                             "solid": {
-                                "color": "000000"
+                                "color": "#F5F5F6"
                             }
                         },
                         "backColor": {
                             "solid": {
-                                "color": "000000"
+                                "color": "#161B26"
                             }
                         },
                         "backColorPrimary": {
                             "solid": {
-                                "color": "000000"
+                                "color": "#161B26"
                             }
                         },
                         "fontColor": {
                             "solid": {
-                                "color": "000000"
+                                "color": "#F5F5F6"
                             }
                         },
                         "fontColorPrimary": {
                             "solid": {
-                                "color": "000000"
+                                "color": "#F5F5F6"
                             }
                         }
                     }
@@ -682,7 +802,7 @@
                     {
                         "fontColor": {
                             "solid": {
-                                "color": "#000000"
+                                "color": "#F5F5F6"
                             }
                         }
                     }
@@ -691,7 +811,7 @@
                     {
                         "fontColor": {
                             "solid": {
-                                "color": "#000000"
+                                "color": "#F5F5F6"
                             }
                         }
                     }
@@ -700,7 +820,7 @@
                     {
                         "fontColor": {
                             "solid": {
-                                "color": "#000000"
+                                "color": "#CECFD2"
                             }
                         },
                         "columnSubtotals": true,
@@ -891,14 +1011,14 @@
                         "gridlineStyle": "solid",
                         "gridlineColor": {
                             "solid": {
-                                "color": "#000000"
+                                "color": "#333741"
                             }
                         },
                         "lineWidth": 0,
                         "lineTransparency": 100,
                         "lineColor": {
                             "solid": {
-                                "color": "#000000"
+                                "color": "#AE8970"
                             }
                         }
                     }
@@ -931,7 +1051,7 @@
     "foregroundNeutralSecondary": "#CECFD2",
     "backgroundLight": "#AE8970",
     "foregroundNeutralTertiary": "#CECFD2",
-    "background": "#0C111D",
+    "background": "#CECFD2",
     "backgroundNeutral": "#AE8970",
     "textClasses": {
         "callout": {

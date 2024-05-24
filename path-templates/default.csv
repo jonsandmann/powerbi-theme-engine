@@ -63,12 +63,39 @@ Visual Advanced Slicer Selected Value Font Color,unknown,visualStyles.advancedSl
 Visual Advanced Slicer Default Fill Color,bg-primary,visualStyles.advancedSlicerVisual.*.fillCustom[0].fillColor.solid.color
 Visual Advanced Slicer Selected Fill Color,bg-active,visualStyles.advancedSlicerVisual.*.fillCustom[1].fillColor.solid.color
 Visual Advanced Slicer Border Color,border-secondary,visualStyles.advancedSlicerVisual.*.border[0].color.solid.color
+Visual Advanced Slicer Layout Border Color,test,visualStyles.advancedSlicerVisual.*.layout[0].borderColor.solid.color
+Visual Advanced Slicer Layout Line Color,unknown,visualStyles.advancedSlicerVisual.*.layout[0].lineColor.solid.color
+Visual Advanced Slicer Layout Gridline Color,border-primary,visualStyles.advancedSlicerVisual.*.layout[0].gridlineColor.solid.color
 First Level Elements,text-secondary,foreground
 Second Level Elements,text-secondary,foregroundNeutralSecondary
 Third Level Elements,unknown,backgroundLight
 Forth Level Elements,text-secondary,foregroundNeutralTertiary
-Background,bg-primary,background
+Background,text-secondary,background
 Secondary Background,unknown,backgroundNeutral
 Text Classes Callout Color,text-primary,textClasses.callout.color
 Text Classes Data Title Color,text-primary,textClasses.dataTitle.color
 Text Classes Title Color,text-primary,textClasses.title.color
+Visual Tooltip Background Color,bg-primary,visualStyles.*.*.visualTooltip[0].background.solid.color
+Visual Tooltip Title Font Color,text-secondary,visualStyles.*.*.visualTooltip[0].titleFontColor.solid.color
+Visual Tooltip Value Font Color,text-primary,visualStyles.*.*.visualTooltip[0].valueFontColor.solid.color
+Visual Pivot Table Horizontal Grid Color,border-primary,visualStyles.pivotTable.*.grid[0].gridHorizontalColor.solid.color
+Visual Pivot Table Vertical Grid Color,border-primary,visualStyles.pivotTable.*.grid[0].gridVerticalColor.solid.color
+Visual Pivot Table Row Headers Background Color,bg-primary_alt,visualStyles.pivotTable.*.rowHeaders[0].backColor.solid.color
+Visual Pivot Table Row Headers Font Color,text-primary,visualStyles.pivotTable.*.rowHeaders[0].fontColor.solid.color
+Visual Pivot Table Column Headers Background Color,bg-primary_alt,visualStyles.pivotTable.*.columnHeaders[0].backColor.solid.color
+Visual Pivot Table Column Headers Font Color,text-primary,visualStyles.pivotTable.*.columnHeaders[0].fontColor.solid.color
+Visual Pivot Table Values Secondary Background Color,bg-primary,visualStyles.pivotTable.*.values[0].backColorSecondary.solid.color
+Visual Pivot Table Values Secondary Font Color,text-primary,visualStyles.pivotTable.*.values[0].fontColorSecondary.solid.color
+Visual Pivot Table Values Background Color,bg-primary_alt,visualStyles.pivotTable.*.values[0].backColor.solid.color
+Visual Pivot Table Values Primary Background Color,bg-primary_alt,visualStyles.pivotTable.*.values[0].backColorPrimary.solid.color
+Visual Pivot Table Values Font Color,text-primary,visualStyles.pivotTable.*.values[0].fontColor.solid.color
+Visual Pivot Table Values Primary Font Color,text-primary,visualStyles.pivotTable.*.values[0].fontColorPrimary.solid.color
+Visual Pivot Table Values Column Total Font Color,text-primary,visualStyles.pivotTable.*.columnTotal[0].fontColor.solid.color
+Visual Pivot Table Values Row Total Font Color,text-primary,visualStyles.pivotTable.*.rowTotal[0].fontColor.solid.color
+Visual Pivot Table SubTotals Font Color,text-secondary,visualStyles.pivotTable.*.subTotals[0].fontColor.solid.color
+Visual Bookmark Navigator Default Text Color,text-secondary,visualStyles.bookmarkNavigator.*.text[0].fontColor.solid.color
+Visual Bookmark Navigator Hover Text Color,fg-secondary_hover,visualStyles.bookmarkNavigator.*.text[1].fontColor.solid.color
+Visual Bookmark Navigator Selected Text Color,fg-secondary_hover,visualStyles.bookmarkNavigator.*.text[2].fontColor.solid.color
+Visual Bookmark Navigator Default Fill Color,bg-primary,visualStyles.bookmarkNavigator.*.fill[1].fillColor.solid.color
+Visual Bookmark Navigator Hover Fill Color,bg-primary_hover,visualStyles.bookmarkNavigator.*.fill[2].fillColor.solid.color
+Visual Bookmark Navigator Selected Fill Color,bg-primary-hover,visualStyles.bookmarkNavigator.*.fill[3].fillColor.solid.color

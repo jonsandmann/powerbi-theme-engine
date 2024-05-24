@@ -1,12 +1,12 @@
 Variable Name,Code,Hex
-Theme color 1,Theme color 1,#00A97B
-Theme color 2,Theme color 2,#27DC6F
-Theme color 3,Theme color 3,#ADF455
-Theme color 4,Theme color 4,#FFC86E
-Theme color 5,Theme color 5,#7E8FA3
-Theme color 6,Theme color 6,#132A13
-Theme color 7,Theme color 7,#31572C
-Theme color 8,Theme color 8,#424874
+Theme color 1,Theme color 1,#3A86FE
+Theme color 2,Theme color 2,#8338EC
+Theme color 3,Theme color 3,#FF006E
+Theme color 4,Theme color 4,#FA5607
+Theme color 5,Theme color 5,#FFBE0C
+Theme color 6,Theme color 6,#2ACF56
+Theme color 7,Theme color 7,#3498DB
+Theme color 8,Theme color 8,#1ABC9C
 bg-primary,white,#FFFFFF
 bg-primary_alt,gray-50,#F9FAFB
 bg-primary-hover,gray-50,#F9FAFB

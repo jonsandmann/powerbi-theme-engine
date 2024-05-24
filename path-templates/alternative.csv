@@ -93,3 +93,9 @@ Visual Pivot Table Values Primary Font Color,text-primary,visualStyles.pivotTabl
 Visual Pivot Table Values Column Total Font Color,text-primary,visualStyles.pivotTable.*.columnTotal[0].fontColor.solid.color
 Visual Pivot Table Values Row Total Font Color,text-primary,visualStyles.pivotTable.*.rowTotal[0].fontColor.solid.color
 Visual Pivot Table SubTotals Font Color,text-secondary,visualStyles.pivotTable.*.subTotals[0].fontColor.solid.color
+Visual Bookmark Navigator Default Text Color,text-secondary,visualStyles.bookmarkNavigator.*.text[0].fontColor.solid.color
+Visual Bookmark Navigator Hover Text Color,fg-secondary_hover,visualStyles.bookmarkNavigator.*.text[1].fontColor.solid.color
+Visual Bookmark Navigator Selected Text Color,fg-secondary_hover,visualStyles.bookmarkNavigator.*.text[2].fontColor.solid.color
+Visual Bookmark Navigator Default Fill Color,bg-primary,visualStyles.bookmarkNavigator.*.fill[1].fillColor.solid.color
+Visual Bookmark Navigator Hover Fill Color,bg-primary_hover,visualStyles.bookmarkNavigator.*.fill[2].fillColor.solid.color
+Visual Bookmark Navigator Selected Fill Color,bg-primary-hover,visualStyles.bookmarkNavigator.*.fill[3].fillColor.solid.color
